@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="img-logo">
+          <img src="./a img/logo.png" alt="" />
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Skills</a></li>
+        </ul>
+      </nav>
+      <div class="main-body">
+        <h1>
+          I,m <span>Chalin <b>Amelia</b></span>
+        </h1>
+        <p><span class="text-chang"></span></p>
+        <div class="btn">
+          <a href="#">DOWNLOD CV</a>
+        </div>
+      </div>
+      <div class="b-img">
+        <img id="pre" src="a img/flower.png" alt="" />
+        <img id="pro" src="a img/girl.png" alt="" />
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".text-chang", {
+        strings: [
+          "This is my Official portfolio Website to showes all Details and Work exiprins Web Development",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>
